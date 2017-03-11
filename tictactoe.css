@@ -1,0 +1,160 @@
+.box {
+  display: block;
+  height: 125px;
+  width: 125px;
+  line-height: 125px;
+  vertical-align: bottom;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  color: #00c2e0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  border-bottom: 2px solid black;
+}
+
+.right {
+  border-right: 2px solid black;
+}
+
+.clear {
+  height: 25px;
+  width: 100px;
+  line-height: 25px;
+  background-color: #00c2e0;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.reset {
+  height: 25px;
+  width: 100px;
+  background-color: #00c2e0;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 25px;
+  line-height: 25px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+select {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.score-header,.settings-header {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: auto;
+  background-color: #00c2e0;
+  color: white;
+  font-size: 20px;
+}
+
+.score {
+  padding: 40px;
+  text-align: center;
+}
+
+body {
+  font-family: helvetica neue, Roboto;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+h4 {
+  background-color: white;
+  color: black;
+  height: 55px;
+  line-height: 55px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-left: 76px;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing:1px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+img {
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 30px;
+}
+
+.settings1{
+  background-color:white;
+  border: 1px solid #e2e2e2;
+  width: 211px;
+  height: 211px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.settings2 {
+  background-color:white;
+  border: 1px solid #e2e2e2;
+  width: 211px;
+  height: 211px;
+  margin-right: 10px;
+}
+
+.layout-game{
+  background-color:white;
+  border: 1px solid #e2e2e2;
+  height: 374px;
+  width: 400px;
+  padding: 30px;
+}
+
+.layout{
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.winner {
+  position: absolute;
+}
+
+.winner {
+  width: 400px;
+  height: 374px;
+  text-align: center;
+  line-height: 379px;
+  font-size: 32px;
+  color: #00c2e0
+}
+
+.x, .o {
+  font-size: 20px;
+  text-align: center;
+}
+
+.settings-body {
+  padding: 40px 20px 40px 20px;
+}
+
+.player, .startover {
+  text-align: center;
+  font-size: 18px;
+}
+
+.board {
+  margin: 0 auto;
+}

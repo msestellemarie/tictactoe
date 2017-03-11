@@ -1,0 +1,60 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="tictactoe.css"/>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="tictactoe.js"></script>
+  <link rel="icon" type="img/png" href="http://www.msestellemarie.com/wp-content/uploads/2017/03/tictactoe.png">
+  <title>Tic-Tac-Toe</title>
+</head>
+<body>
+  <h4><img src="http://www.msestellemarie.com/wp-content/uploads/2017/03/tictactoe.png" height="40" width="40">Tic-Tac-Toe</h4>
+  <div class="layout">
+    <div class="layout-settings">
+      <div class="settings1">
+        <div class="settings-header">Game Settings</div>
+        <div class="settings-body">
+          <div class="player">Who goes first?</div>
+          <div class="startover">Wanna start over?</div>
+          <p></p>
+          <select>
+            <option>X</option>
+            <option>O</option>
+          </select>
+          <p></p>
+          <div class="clear">Clear</div>
+        </div>
+      </div>
+      <div class="settings2">
+        <div class="score-header">Scoreboard</div>
+        <div class="score">
+          <div class="x"></div>
+          <div class="o"></div>
+          <p></p>
+          <div class="reset">Reset</div>
+        </div>
+      </div>
+    </div>
+    <div class="layout-game">
+      <div class ="winner"></div>
+      <div class ="board">
+        <div class="row">
+          <div class="box bottom right"></div>
+          <div class="box bottom right"></div>
+          <div class="box bottom"></div>
+        </div>
+        <div class="row">
+          <div class="box bottom right"></div>
+          <div class="box bottom right"></div>
+          <div class="box bottom"></div>
+        </div>
+        <div class="row">
+          <div class="box right"></div>
+          <div class="box right"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+  </div>
